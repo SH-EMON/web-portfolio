@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+body{
+    font-family:poppins;
+    margin:0;
+}
+section{
+    height:500px;
+    margin-bottom:100px;
+}
+.top_section{
+   background:url(images/top-banner.png) no-repeat;
+}
+.half_width{
+    width:40%;
+    float:left;
+    margin-left:6%;
+    
+}
+.half_width h1{
+    font-size:50px;
+    color:#7140D9;
+}
+.half_width h2{
+    font-size:40px;
+}
+.half_width h3{
+    color:#FF3484;
+}
+.name-highlight{
+    color:orange;
+}
+.web-highlight{
+    color:#7041DA;
+}
+.half_width p{
+    margin-bottom:30px;
+    color:dimgray;
+    text-align:justify;
+}
+.half_width img{
+    width:100%;
+}
+.hire-button{
+    text-decoration:none;
+    color:#fff;
+    background-image:linear-gradient(lightsalmon,tomato);
+    padding:10px 30px;
+    font-weight:bold;
+    -webkit-transition:all 0.3s ease;
+    transition:all 0.3s ease;
+}
+.hire-button:hover{
+    background:#FF2E80;
+}
+.dream-area{
+    background:url(images/dream-bg.png) no-repeat;
+    background-position:right;
+}
+.half_width .world-class{
+    color:orange;
+}
+.half_width h2{
+    font-size:40px;
+}
+.half_width .bdrim{
+    color:#5961DD;
+}
+.half_width p{
+    margin-bottom:30px;
+    color:dimgray;
+    text-align:justify;
+
+}
+.half_width img{
+    width:100%;
+}
+.experience_area{
+    background-image:url(images/exp-bg.png);
+    background-repeat:no-repeat;
+    background-position:left center;
+}
+.experience_area .half-width{
+    width:40%;
+    float:left;
+    margin-left:5%;
+    padding-left:2%;
+}
+.experience_area h1{
+    color:#FF2F81;
+    font-size:40px;
+    margin-left:70px;
+}
+.experience_area h2{
+    color:#5961DD;
+}
+.experience_area h3{
+    color:orange;
+}
+.experience_area p{
+    color:dimgray;
+}
+.box-shadow{
+    box-shadow:10px 10px 40px dimgray;
+    border-radius:5px;
+    background:#fff;
+    height:300px;
+}
+#full-stack{
+    border-left:7px solid;
+    border-image:linear-gradient( lightsalmon, tomato);
+    border-image-slice:1;
+}
+#baby-web{
+    border-left:7px solid;
+    border-image:linear-gradient( blue, cyan);
+    border-image-slice:1;
+}
+footer{
+    background:#ddd;
+}
+footer p{
+    text-align:center;
+    padding:5px;
+}
